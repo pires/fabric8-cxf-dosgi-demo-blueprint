@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
   xmlns:cm="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:jaxrs="http://cxf.apache.org/blueprint/jaxrs"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jaxrs="http://cxf.apache.org/blueprint/jaxrs"
   xmlns:cxf="http://cxf.apache.org/blueprint/core"
   xsi:schemaLocation="
       http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
@@ -32,7 +31,7 @@
     <property name="billingService">
       <reference
         interface="com.github.pires.example.fabric8.api.billing.BillingService"
-        availability="mandatory" />
+        availability="optional" /> <!-- should be MANDATORY, see https://github.com/fabric8io/fabric8/issues/650 -->
     </property>
   </bean>
 
