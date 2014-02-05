@@ -134,6 +134,7 @@
             <Require-Capability>${osgi.capabilities.require}</Require-Capability>
             <Provide-Capability>${osgi.capabilities.provide}</Provide-Capability>
             <Service-Component>${osgi.service.component}</Service-Component>
+            <_removeheaders>Import-Service</_removeheaders>
           </instructions>
         </configuration>
       </plugin>

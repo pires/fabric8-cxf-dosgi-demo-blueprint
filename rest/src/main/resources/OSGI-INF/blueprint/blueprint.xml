@@ -31,7 +31,7 @@
     <property name="billingService">
       <reference
         interface="com.github.pires.example.fabric8.api.billing.BillingService"
-        availability="optional" /> <!-- should be MANDATORY, see https://github.com/fabric8io/fabric8/issues/650 -->
+        availability="mandatory" />
     </property>
   </bean>
 
