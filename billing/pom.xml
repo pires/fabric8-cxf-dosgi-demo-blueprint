@@ -40,7 +40,7 @@
   <properties>
     <osgi.import.pkg>*</osgi.import.pkg>
     <osgi.export.pkg></osgi.export.pkg>
-    <osgi.private.pkg>com.github.pires.example.fabric8.billing.*</osgi.private.pkg>
+    <osgi.private.pkg>com.github.pires.example.fabric8.billing</osgi.private.pkg>
   </properties>
 
 </project>

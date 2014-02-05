@@ -3,7 +3,9 @@
   xmlns:cm="http://aries.apache.org/blueprint/xmlns/blueprint-cm/v1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-  <!-- Export as OSGi services -->
+  <bean id="billingService"
+    class="com.github.pires.example.fabric8.billing.BillingServiceImpl" />
+
   <service ref="billingService"
     interface="com.github.pires.example.fabric8.api.billing.BillingService">
     <service-properties>

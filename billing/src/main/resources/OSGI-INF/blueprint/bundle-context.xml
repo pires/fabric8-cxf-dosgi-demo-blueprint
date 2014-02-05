@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0">
-
-  <bean id="billingService"
-    class="com.github.pires.example.fabric8.billing.BillingServiceImpl">
-  </bean>
-
-</blueprint>

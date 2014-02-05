@@ -34,10 +34,9 @@
   </dependencies>
 
   <properties>
-    <osgi.import.pkg>*</osgi.import.pkg>
+    <osgi.import.pkg>org.osgi.service.blueprint,com.github.pires.example.fabric8.api.billing,com.fasterxml.jackson.jaxrs.json,org.apache.cxf.jaxrs.swagger</osgi.import.pkg>
     <osgi.export.pkg></osgi.export.pkg>
-    <osgi.private.pkg></osgi.private.pkg>
-<!--     <osgi.services.import>com.github.pires.example.fabric8.billing.BillingService</osgi.services.import> -->
+    <osgi.private.pkg>com.github.pires.example.fabric8.user</osgi.private.pkg>
   </properties>
 
 </project>
